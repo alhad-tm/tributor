@@ -8,7 +8,7 @@ const Tcinema = () => {
     <div className={css.container}>
            <div className={css.top}>
             <div className={css.head}>
-                <span>Tributor for Media</span>
+                <span>Tributor for Cinema</span>
                 <span>Simplify content management with tributor, with analytics and content rights at your fingertips!</span>
             </div>
             <div className={css.details}>
