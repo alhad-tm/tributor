@@ -1,0 +1,70 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background: #0E0E0E;
+    padding: 2% 6%;
+    gap: 2rem;
+   
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+}
+.details{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+.dright{
+    display: flex;
+    flex-direction: column;
+}
+.lists{
+    display: flex;
+    align-items: center;
+
+}
+.set{
+    display: flex;
+    align-items: center;
+}
+.set>img{
+    width: 20px;
+    height: 20px;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.boxwrap{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 47%;
+    height: 200px;
+    background-color: azure;
+    color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.bottomcontact{
+    background: #090909;
+    display: flex;
+    flex-direction: column;
+    padding: 6% 20%;
+    align-items: center;
+    justify-content: center;
+    
+}
