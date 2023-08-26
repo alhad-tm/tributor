@@ -2,7 +2,7 @@ import React from 'react'
 import css from "./Products.module.css"
 import P1 from "../../assets/p1.svg"
 import P2 from "../../assets/p2.svg"
-import P3 from "../../assets/p3.svg"
+import P3 from "../../assets/p33.png"
 
 const Products = () => {
   return (
@@ -54,7 +54,7 @@ const Products = () => {
         </div>
         <div className={css.p1}>
             <div className={css.left}>
-                <div className={css.pleft1}>
+                <div className={css.left1}>
                     <span className={css.head}>Tributor for cinemas</span>
                    
                 </div>

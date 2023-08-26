@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     padding: 2% 6%;
+    background: #0C0C0C;
 }
 .div1{
     display: flex;
@@ -15,7 +16,7 @@
     justify-content: space-between;
     align-items: center;
 }
-.p1left{
+.left{
     width: 50%;
 }
 .head{
@@ -35,7 +36,7 @@ font-style: normal;
 font-weight: 300;
 line-height: 28px; /* 155.556% */
 }
-.pleft3{
+.left3{
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -63,10 +64,10 @@ color: #FF5656;
 font-size: 18px;
 font-family: Nunito;
 }
-.p1right{
+.right{
     width: 50%;
 }
-.p1right>img{
+.right>img{
     width: 100%;
 }
 .p2{

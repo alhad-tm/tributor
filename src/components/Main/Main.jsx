@@ -1,6 +1,6 @@
 import React from 'react'
 import css from "./Main.module.css"
-import Tb1 from "../../assets/tributor1.png"
+import Tb1 from "../../assets/tributor1.svg"
 
 const Main = () => {
   return (
