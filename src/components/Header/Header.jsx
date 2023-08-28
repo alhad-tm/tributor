@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import css from "./Header.module.css"
-import Bars from "../../assets/animation_list.gif"
+import Bars from "../../assets/bars.svg"
+import Trib from "../../assets/TRIBUTOR.png"
 
 const Header = () => {
   const mobile = window.innerWidth <= 768 ? true : false;
@@ -9,27 +10,38 @@ const Header = () => {
 
   return (
     <div className={css.container}>
+      <div className={css.left}>
+        <img src={Trib} alt="" />
+       
+      </div>
+
+
+      <div className={css.right}>
+
+     
           
 
        {opened === false && mobile === true ? (
           <div onClick={() => setOpened(true)}>
             <img style={{width:"30px",height:"30px"}} onClick={()=>setOpened(false)} className={css.bars} src={Bars} alt="" />
           </div>
-        ) : ( <ul>
-          <li>home</li>
-          <li onClick={()=>setDown(!down)}>products </li>
+        ) : ( <ul className={css.ulist}>
+          <li>Home</li>
+          <li onClick={()=>setDown(!down)}>Product </li>
           {down &&  
-            <ul >
-            <li>p1</li>
+            <ul  >
+            <li onClick={()=>setOpened(false)}>p1</li>
             <li>p2</li>
           </ul>
           }
-        
+          <li>About</li>
           <li>Contact</li>
         </ul> ) }
         <div>
 
        </div>
+       </div>
+
     </div> 
   )
 }
