@@ -32,10 +32,12 @@ const Products = () => {
                 <img src={P1} alt="" />
             </div>
         </div>
+
+        {/* product2 */}
         <div className={css.p2}>
             <div className={css.left}>
                 <div className={css.left1}>
-                    <span className={css.head}>Tributor for cinemas</span>
+                    <span className={css.head}>Tributor for Media</span>
                    
                 </div>
 
@@ -48,10 +50,14 @@ const Products = () => {
                     <button className={css.viewdetailsbtn}>View details</button>
                 </div>
             </div>
-            <div className={css.right}>
+            <div className={css.p2right}>
                 <img src={P2} alt="" />
             </div>
         </div>
+
+        {/* product2 */}
+
+
         <div className={css.p1}>
             <div className={css.left}>
                 <div className={css.left1}>

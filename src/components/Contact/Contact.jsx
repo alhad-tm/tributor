@@ -18,7 +18,7 @@ contact@inivicious.in</span>
             </div>
             <div className={css.div2right}>
                 <span>LOCATION</span>
-            <span>124-H, 3rd Floor, Thendral Complex,
+            <span>124-H, 3rd Floor, Thendral Complex,<br />
 DB Road, RS Puram, 
 Coimbatore - 641002</span>
             </div>
