@@ -29,9 +29,9 @@ const Header = () => {
           <li>Home</li>
           <li onClick={()=>setDown(!down)}>Product </li>
           {down &&  
-            <ul  >
+            <ul className={css.productsublist} >
             <li onClick={()=>setOpened(false)}>p1</li>
-            <li>p2</li>
+            <li onClick={()=>setOpened(false)}>p2</li>
           </ul>
           }
           <li>About</li>

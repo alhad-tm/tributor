@@ -33,6 +33,13 @@ line-height: normal;
 .ulist{
     display: flex;
     gap: 2rem;
+    width: 100%;
+    position: relative;
+}
+.productsublist{
+    position: absolute;
+    right: 52%;
+    top: 77%;
 }
 @media screen and (max-width:768px){
     .ulist{
