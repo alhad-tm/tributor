@@ -18,7 +18,7 @@ const Prekets = () => {
         </div>
 
         <div className={css.div4}>
-            <button>Download app</button>
+            <button className={css.downloadbtn}>Download app</button>
         </div>
 
         <div className={css.div5}>

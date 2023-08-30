@@ -6,3 +6,44 @@
     justify-content: center;
     gap: 2rem;
 }
+.div1>:nth-child(1){
+    color: #FF5656;
+    font-family: Syncopate;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.div2>:nth-child(1){
+    color: #B3B3B3;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 116.667% */
+}
+.div3>:nth-child(1){
+    color: #999;
+text-align: center;
+font-family: Nunito;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 120% */
+}
+.downloadbtn{
+    display: flex;
+padding: 8px 24px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 41px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), #FF5656;
+border: none;
+color: rgba(255, 255, 255, 0.20);
+text-align: center;
+font-family: Nunito;
+font-size: 18px;
+}
+.div5>img{
+    width: 50%;
+}
