@@ -5,6 +5,7 @@ import P1 from "../../assets/p1.svg"
 
 const Tcinema = () => {
   return (
+    <div className={css.maincontainer}>
     <div className={css.container}>
            <div className={css.top}>
             <div className={css.head}>
@@ -99,15 +100,14 @@ const Tcinema = () => {
             </div>
         </div>
 
-
-        <div className={css.bottomcontact}>
+    </div>
+    <div className={css.bottomcontact}>
            
-                <span>Contact us to learn more about our pricing details for the product</span>
-                <button>Contact</button>
-           
-
-        </div>
+           <span>Contact us to learn more about our pricing details for the product</span>
+           <button className={css.contactbtn}>Contact</button>
       
+
+   </div>
     </div>
   )
 }

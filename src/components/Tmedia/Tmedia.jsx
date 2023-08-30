@@ -5,6 +5,7 @@ import Dot from "../../assets/animation_list.gif"
 
 const Tmedia = () => {
   return (
+    <div className={css.maincontainer}>
     <div className={css.container}>
         <div className={css.top}>
             <div className={css.head}>
@@ -89,15 +90,15 @@ const Tmedia = () => {
             </div>
         </div>
 
+    </div>
 
-        <div className={css.bottomcontact}>
+    <div className={css.bottomcontact}>
            
-                <span>Contact us to learn more about our pricing details for the product</span>
-                <button>Contact</button>
-           
-
-        </div>
+           <span>Contact us to learn more about our pricing details for the product</span>
+           <button className={css.contactbtn}>Contact</button>
       
+
+   </div>
     </div>
   )
 }

@@ -15,27 +15,65 @@
     display: flex;
     flex-direction: column;
 }
+.head>:nth-child(1){
+    color: #FF5656;
+font-family: Syncopate;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.head>:nth-child(2){
+    color: #B3B3B3;
+font-family: Nunito;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 116.667% */
+}
 .details{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+.dleft{
+    width: 50%;
+}
+.dleft>img{
+    width: 80%;
+}
 .dright{
     display: flex;
     flex-direction: column;
+    width: 50%;
 }
 .lists{
     display: flex;
     align-items: center;
+    gap: 2rem;
 
+}
+.listleft,.listright{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
 }
 .set{
     display: flex;
     align-items: center;
+    gap: 0.4rem;
 }
 .set>img{
     width: 20px;
     height: 20px;
+}
+.set>span{
+    color: #B3B3B3;
+font-family: Nunito;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 155.556% */
 }
 .center{
     display: flex;
@@ -49,21 +87,62 @@
 .box{
     width: 47%;
     height: 250px;
-    background-color: azure;
+    background-color: rgb(75, 77, 77);
     color: red;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 1rem;
-}
+    border-radius: 20px;
+    padding: 0 4%;
 
+}
+.box>:nth-child(1){
+    color: var(--film-primary, #FF5656);
+text-align: center;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Nunito;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px; /* 116.667% */
+}
+.box>:nth-child(2){
+    color: #B3B3B3;
+text-align: center;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Nunito;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 177.778% */
+}
 .bottomcontact{
     background: #090909;
     display: flex;
     flex-direction: column;
+    gap: 1rem;
     padding: 6% 20%;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center; 
+}
+.bottomcontact>:nth-child(1){
+    color: #999;
+text-align: center;
+font-family: Nunito;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.contactbtn{
+    display: flex;
+padding: 8px 24px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 41px;
+border: 1px solid #FF5656;
+color: #FF5656;
+background: transparent;
 }
