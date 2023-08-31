@@ -3,10 +3,11 @@ import css from "./Products.module.css"
 import P1 from "../../assets/p1.svg"
 import P2 from "../../assets/p2.svg"
 import P3 from "../../assets/p33.png"
+import { Link } from 'react-router-dom'
 
 const Products = () => {
   return (
-    <div className={css.container}>
+    <div className={css.container} id='products'>
         <div className={css.div1}>
             <span>PRODUCTS</span>
             <span>Tributor by Invicious</span>
@@ -25,7 +26,7 @@ const Products = () => {
 
                 <div className={css.left3}>
                     <button className={css.registerbtn}>Register</button>
-                    <button className={css.viewdetailsbtn}>View details</button>
+                  <Link to="/tcinema"> <button className={css.viewdetailsbtn}>View details</button>  </Link>  
                 </div>
             </div>
             <div className={css.right}>
@@ -47,7 +48,7 @@ const Products = () => {
 
                 <div className={css.left3}>
                     <button className={css.registerbtn}>Register</button>
-                    <button className={css.viewdetailsbtn}>View details</button>
+                    <Link to="/tmedia"> <button className={css.viewdetailsbtn}>View details</button>  </Link>  
                 </div>
             </div>
             <div className={css.p2right}>
@@ -71,7 +72,7 @@ const Products = () => {
 
                 <div className={css.left3}>
                     <button className={css.registerbtn}>Register</button>
-                    <button className={css.viewdetailsbtn}>View details</button>
+                    <Link to="/prekets"> <button className={css.viewdetailsbtn}>View details</button>  </Link>  
                 </div>
             </div>
             <div className={css.right}>

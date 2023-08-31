@@ -22,9 +22,9 @@ const About = () => {
 
 
         <div className={css.div3}>
-            <img src={A1} alt="" />
-            <img src={A2} alt="" />
-            <img src={A3} alt="" />
+            <img className={css.a1} src={A1} alt="" />
+            <img className={css.a1} src={A2} alt="" />
+            <img className={css.a1} src={A3} alt="" />
         </div>
       
     </div>

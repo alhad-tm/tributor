@@ -2,6 +2,8 @@ import React from 'react'
 import css from "./Main.module.css"
 import Tb1 from "../../assets/tributor1.svg"
 import Darrow from "../../assets/downarrow.svg"
+import {Link as LinkScroll} from "react-scroll"
+import { HashLink } from 'react-router-hash-link'
 
 const Main = () => {
   return (
@@ -19,7 +21,7 @@ const Main = () => {
 
         <div className={css.div4}>
           <span>Our Products</span>
-          <img src={Darrow} alt="" />
+         <HashLink to="/#products" spy={true} smooth={true}> <img src={Darrow} alt="" /> </HashLink> 
            </div>
       
     </div>

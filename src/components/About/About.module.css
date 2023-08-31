@@ -32,11 +32,21 @@ line-height: 28px; /* 155.556% */
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 2rem;
 }
-.div3>img{
+/* .div3>img{
     width: 30%;
     height: 130px;
+} */
+/* .a1{
+    width: 100px;
 }
+.a2{
+    width: 100px;
+}
+.a3{
+    width: 100px;
+} */
 
 @media screen and (max-width:768px){
     .container{
@@ -52,8 +62,11 @@ line-height: 28px; /* 155.556% */
         font-size: 12px;
         line-height: 24px;
     }
-    .div3>img{
-        width: 20%;
-        height: 100px;
+    .div3{
+        gap: 0;
+    }
+    .a1,.a2,.a3{
+        width: 30%;
+        /* height: 100px; */
     }
 }

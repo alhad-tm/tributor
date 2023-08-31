@@ -69,33 +69,33 @@ const Tcinema = () => {
 
         <div className={css.center}>
             <div className={css.boxwrap}>
-                <div className={css.box}>
-                    <span>DCP Services</span>
-                    <span>Avail a comprehensive DCP (Digital Cinema Package) tracking, encoding and key management system, allowing you to easily manage your movie's digital assets across different distribution channels.</span>
+                <div className={css.box1} >
+                    <span className={css.bx1}>DCP Services</span>
+                    <span className={css.bx2}>Easily manage all your digital cinema packages (DCPs) from a single dashboard. Managing your keys is now easier than ever. </span>
                 </div>
-                <div className={css.box}>
-                    <span>DCP Services</span>
-                    <span>Avail a comprehensive DCP (Digital Cinema Package) tracking, encoding and key management system, allowing you to easily manage your movie's digital assets across different distribution channels.</span>
-                </div>
-            </div>
-            <div className={css.boxwrap}>
-                <div className={css.box}>
-                    <span>DCP Services</span>
-                    <span>Avail a comprehensive DCP (Digital Cinema Package) tracking, encoding and key management system, allowing you to easily manage your movie's digital assets across different distribution channels.</span>
-                </div>
-                <div className={css.box}>
-                    <span>DCP Services</span>
-                    <span>Avail a comprehensive DCP (Digital Cinema Package) tracking, encoding and key management system, allowing you to easily manage your movie's digital assets across different distribution channels.</span>
+                <div className={css.box2}>
+                    <span className={css.bx1}>Analytics</span>
+                    <span className={css.bx2}>Get real-time insights into your box office performance, including ticket sales, and screen performance. Use this information to make data-driven decisions and optimize your marketing strategies.</span>
                 </div>
             </div>
             <div className={css.boxwrap}>
-                <div className={css.box}>
-                    <span>DCP Services</span>
-                    <span>Avail a comprehensive DCP (Digital Cinema Package) tracking, encoding and key management system, allowing you to easily manage your movie's digital assets across different distribution channels.</span>
+                <div className={css.box3}>
+                    <span className={css.bx1}>Agreement management</span>
+                    <span className={css.bx2}>Keep track of all your agreements and contracts with stakeholders in one place. Get alerts when agreements are about to expire and automate the renewal process.</span>
                 </div>
-                <div className={css.box}>
-                    <span>DCP Services</span>
-                    <span>Avail a comprehensive DCP (Digital Cinema Package) tracking, encoding and key management system, allowing you to easily manage your movie's digital assets across different distribution channels.</span>
+                <div className={css.box4}>
+                    <span className={css.bx1}>Screen Ads aggregator</span>
+                    <span className={css.bx2}>Choose which ads to display on which screens and schedule them in advance. Make sure your advertisers reach their target audience and maximize your ad revenue.</span>
+                </div>
+            </div>
+            <div className={css.boxwrap}>
+                <div className={css.box5}>
+                    <span className={css.bx1}>Screen and show configuration</span>
+                    <span className={css.bx2}>Configure your theatre screens and shows in a user-friendly interface. Manage show times, ticket prices, seating arrangements, and more.</span>
+                </div>
+                <div className={css.box6}>
+                    <span className={css.bx1}>Payment gateway</span>
+                    <span className={css.bx2}>Streamline your payment process and get paid faster with our secure and easy-to-use payment gateway. Settle all payments on a weekly basis and automatically split movie revenue with other stakeholders.</span>
                 </div>
             </div>
         </div>
