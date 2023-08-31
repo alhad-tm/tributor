@@ -5,7 +5,7 @@ import Home from './components/Home/Home';
 import Prekets from './components/Prekets/Prekets';
 import Tcinema from './components/Tcinema/Tcinema';
 import Tmedia from './components/Tmedia/Tmedia';
-import Header from './components/Header/Header';
+// import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 
 
@@ -22,6 +22,7 @@ function App() {
           <Route path='/tcinema' element={ <Tcinema/>}/>
           <Route path='/prekets'  element={   <Prekets/>}/>
         </Routes>
+        {/* <Contact/> */}
         <Footer/>
       </Router>
  
