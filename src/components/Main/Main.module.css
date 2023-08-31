@@ -62,3 +62,14 @@ line-height: normal;
     width: 10px;
     height: 12px;
 }
+@media screen and (max-width:768px){
+    .container{
+        height: 100vh;
+    }
+    .div3{
+        width: 100%;
+    }
+    .div4{
+        bottom: -80px;
+    }
+}

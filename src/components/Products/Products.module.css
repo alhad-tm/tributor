@@ -108,3 +108,32 @@ font-family: Nunito;
     align-items: center;
 
 }
+
+@media screen and (max-width:768px){
+    .p1{
+        display: flex;
+        flex-direction: column;
+    }
+    .p2{
+        display: flex;
+        flex-direction: column;
+    }
+    .registerbtn{
+        display: flex;
+height: 30px;
+padding: 6px 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+font-size: 14px;
+    }
+    .viewdetailsbtn{
+        font-size: 14px;
+        display: flex;
+height: 30px;
+padding: 6px 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+    }
+}
