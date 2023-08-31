@@ -1,6 +1,9 @@
 import React from 'react'
 import css from "./About.module.css"
-import Test from "../../assets/p33.png"
+
+import A1 from "../../assets/a1.png"
+import A2 from "../../assets/a2.png"
+import A3 from "../../assets/a3.png"
 
 const About = () => {
   return (
@@ -19,9 +22,9 @@ const About = () => {
 
 
         <div className={css.div3}>
-            <img src={Test} alt="" />
-            <img src={Test} alt="" />
-            <img src={Test} alt="" />
+            <img src={A1} alt="" />
+            <img src={A2} alt="" />
+            <img src={A3} alt="" />
         </div>
       
     </div>

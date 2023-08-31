@@ -66,8 +66,14 @@ line-height: normal;
     .container{
         height: 100vh;
     }
+    .div2>:nth-child(1){
+        font-size: 16px;
+    }
     .div3{
         width: 100%;
+    }
+    .div3>:nth-child(1){
+        font-size: 14px;
     }
     .div4{
         bottom: -80px;
