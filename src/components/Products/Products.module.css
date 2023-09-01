@@ -86,15 +86,21 @@ border: 1px solid #FF5656;
 color: #FF5656;
 font-size: 18px;
 font-family: Nunito;
+background:transparent;
+}
+.left3>a{
+    text-decoration: none;
+    
 }
 .registerbtn:hover{
-    background: transparent;
+    background:transparent;
     color: #FF5656;
     cursor: pointer;
 }
 .viewdetailsbtn:hover{
     cursor: pointer;
-    background:transparent;
+    color:#FFF;
+    background: #FF5656;
 }
 .right{
     width: 50%;

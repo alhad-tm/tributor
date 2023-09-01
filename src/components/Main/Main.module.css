@@ -11,6 +11,9 @@
     padding: 6% 6%;
     /* position: relative; */
 }
+.div1{
+    padding-top: 1rem;
+}
 .div1>img{
  
     width: 212px;
@@ -66,7 +69,8 @@ line-height: normal;
 @media screen and (max-width:768px){
     .container{
         height: 100vh;
-        justify-content: center;
+        justify-content: flex-start;
+        padding-top: 4rem;
         
     }
     .div1>img{
@@ -83,6 +87,6 @@ line-height: normal;
         font-size: 14px;
     }
     .div4{
-        bottom: -80px;
+        bottom: 10px;
     }
 }

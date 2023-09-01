@@ -131,13 +131,13 @@ text-decoration: none;
     backdrop-filter: blur(5px);
     animation-name: move;
     animation-delay: 0s;
-    animation-duration: 1s;
+    animation-duration: 700ms;
     animation-fill-mode: forwards;
     
     }
     @keyframes move {
-        from { left: 400px; }
-        to { left: 0px; }
+        from { right: 0px; }
+        to { right: 400px; }
       }
      
     .new{

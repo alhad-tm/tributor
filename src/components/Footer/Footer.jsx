@@ -18,8 +18,9 @@ const Footer = () => {
           <ul className={css.flist}>
          <HashLink to="/#about" smooth="true">  <li className={css.aboutli}>About us</li> </HashLink>  
          <HashLink to="/#products" smooth="true">  <li>Products</li> </HashLink>  
+         <HashLink to="/#contact" smooth="true">  <li>Contact</li> </HashLink>  
           
-            <li>Contact</li>
+          
           </ul>
         </div>
         
