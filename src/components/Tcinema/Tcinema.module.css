@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     background: #0E0E0E;
-    padding: 2% 6%;
+    padding: 8% 6%;
     gap: 2rem;
    
 }
@@ -199,6 +199,9 @@ font-size: 18px;
 }
 
 @media screen and (max-width:768px){
+    .container{
+        padding: 16% 6%;
+    }
     .head>:nth-child(1){
         font-size: 16px;
     }
@@ -218,7 +221,8 @@ font-size: 18px;
     }
     .dright{
         flex-direction: column-reverse;
-        align-items: self-end;
+        align-items: flex-start;
+        width: 100%;
     }
     .lists{
         display: flex;
@@ -250,6 +254,18 @@ font-size: 18px;
     }
     .bx2{
         font-size: 14px;
+    }
+    .bottomcontact{
+        padding: 20% 6%;
+    }
+    .bottomcontact>:nth-child(1){
+        font-size: 14px;
+    }
+    .btn{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .registerbtn{
         display: flex;

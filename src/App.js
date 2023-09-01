@@ -8,10 +8,25 @@ import Tmedia from './components/Tmedia/Tmedia';
 import Header from "./components/Header/Header"
 // import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import { useState } from 'react';
+import Backto from "../src/assets/backto.svg"
 
 
 
 function App() {
+  const [state,setState]=useState(false)
+
+  const backTo=()=>{
+    
+  if (window.scrollY>100){
+    setState(true)
+  } else{
+    setState(false)
+  }
+
+  }
+
+  window.addEventListener("scroll",backTo)
   return (
     <div className="App">
       <Router>
@@ -25,6 +40,7 @@ function App() {
         </Routes>
         {/* <Contact/> */}
         <Footer/>
+        <img onClick={()=>window.scrollTo({top: 0,left: 0,behavior: "smooth",})} className= { state? "tobtn2":" tobtn"} src={Backto}></img>
       </Router>
  
   

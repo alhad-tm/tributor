@@ -4,6 +4,7 @@ import Trib from "../../assets/TRIBUTOR.png"
 import Fb from "../../assets/Facebook.svg"
 import Insta from "../../assets/instagram.svg"
 import Twitter from "../../assets/twitter.svg"
+import { HashLink } from 'react-router-hash-link'
 
 const Footer = () => {
   return (
@@ -15,8 +16,9 @@ const Footer = () => {
 
         <div className={css.div2}>
           <ul className={css.flist}>
-            <li className={css.aboutli}>About us</li>
-            <li>Products</li>
+         <HashLink to="/#about" smooth="true">  <li className={css.aboutli}>About us</li> </HashLink>  
+         <HashLink to="/#products" smooth="true">  <li>Products</li> </HashLink>  
+          
             <li>Contact</li>
           </ul>
         </div>

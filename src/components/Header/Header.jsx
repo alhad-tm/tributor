@@ -17,7 +17,7 @@ const Header = () => {
   return (
     <div className={css.container}>
       <div className={css.left}>
-        <img src={Trib} alt="" />
+        <img className={css.mlogo} src={Trib} alt="" />
        
       </div>
 
@@ -29,7 +29,7 @@ const Header = () => {
 
        {opened === false && mobile === true ? (
           <div className={css.sw} onClick={() => setOpened(true)}>
-            <img style={{width:"20px",height:"20px"}} onClick={()=>setOpened(false)} className={css.bars} src={Bars} alt="" />
+            <img style={{width:"17px",height:"17px"}} onClick={()=>setOpened(false)} className={css.bars} src={Bars} alt="" />
           </div>
         ) : (
          <div className={css.new}>

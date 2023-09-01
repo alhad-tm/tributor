@@ -105,7 +105,7 @@ const Tcinema = () => {
     <div className={css.bottomcontact}>
            
            <span>Contact us to learn more about our pricing details for the product</span>
-           <button className={css.contactbtn}>Contact</button>
+           <button className={css.contactbtn}>Contact us</button>
       
 
    </div>
