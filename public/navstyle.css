@@ -14,13 +14,14 @@ body{
 }
 nav{
   /* position: fixed; */
-  /* position: static; */
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   /* height: 70px; */
   background:transparent;
+  background: #090909;
   
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   z-index: 99;

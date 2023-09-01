@@ -27,6 +27,7 @@ const Tcinema = () => {
                                 <img src={Dot} alt="" />
                                 <span>DCP Key Management</span>
                             </div>
+                            
                             <div className={css.set}>
                                 <img src={Dot} alt="" />
                                 <span>Digital Agreement(Legal)</span>

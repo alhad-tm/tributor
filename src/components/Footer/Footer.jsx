@@ -24,7 +24,7 @@ const Footer = () => {
         <div className={css.div3}>
           <div className={css.div3left}>
      <a href="https://twitter.com/Invicious_in?s=08" target='blank'><img src={Fb} alt="" /></a> 
-     <a href="https://twitter.com/Invicious_in?s=08" target='blank'><img src={Insta} alt="" /></a> 
+     <a href="https://instagram.com/invicious.in?igshid=MzRlODBiNWFlZA==" target='blank'><img src={Insta} alt="" /></a> 
      <a href="https://twitter.com/Invicious_in?s=08" target='blank'><img src={Twitter} alt="" /></a> 
  
           </div>

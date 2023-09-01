@@ -25,33 +25,33 @@ const Tmedia = () => {
                             </div>
                             <div className={css.set}>
                                 <img src={Dot} alt="" />
-                                <span>DCP Encoding</span>
+                                <span>DCP Tracking</span>
                             </div>
                             <div className={css.set}>
                                 <img src={Dot} alt="" />
-                                <span>DCP Encoding</span>
+                                <span>DCP Key Management</span>
                             </div>
                             <div className={css.set}>
                                 <img src={Dot} alt="" />
-                                <span>DCP Encoding</span>
+                                <span>Digital Agreements(Legal)</span>
                             </div>
                         </div>
                         <div className={css.listright}>
                             <div className={css.set}>
                                 <img src={Dot} alt="" />
-                                <span>DCP Encoding</span>
+                                <span>Daily Box Data</span>
                             </div>
                             <div className={css.set}>
                                 <img src={Dot} alt="" />
-                                <span>DCP Encoding</span>
+                                <span>DCRs, WCRs, TCR</span>
                             </div>
                             <div className={css.set}>
                                 <img src={Dot} alt="" />
-                                <span>DCP Encoding</span>
+                                <span>Analytics</span>
                             </div>
                             <div className={css.set}>
                                 <img src={Dot} alt="" />
-                                <span>DCP Encoding</span>
+                                <span>Payment Gateway</span>
                             </div>
                         </div>
 

@@ -26,7 +26,7 @@ const Products = () => {
 
                 <div className={css.left3}>
                     <button className={css.registerbtn}>Register</button>
-                  <Link to="/tcinema"> <button className={css.viewdetailsbtn}>View details</button>  </Link>  
+                  <Link to="/tcinema"> <button onClick={() => window.scrollTo(0, 0)} className={css.viewdetailsbtn}>View details</button>  </Link>  
                 </div>
             </div>
             <div className={css.right}>
@@ -48,7 +48,7 @@ const Products = () => {
 
                 <div className={css.left3}>
                     <button className={css.registerbtn}>Register</button>
-                    <Link to="/tmedia"> <button className={css.viewdetailsbtn}>View details</button>  </Link>  
+                    <Link to="/tmedia"> <button onClick={() => window.scrollTo(0, 0)} className={css.viewdetailsbtn}>View details</button>  </Link>  
                 </div>
             </div>
             <div className={css.p2right}>
@@ -72,7 +72,7 @@ const Products = () => {
 
                 <div className={css.left3}>
                     <button className={css.registerbtn}>Register</button>
-                    <Link to="/prekets"> <button className={css.viewdetailsbtn}>View details</button>  </Link>  
+                    <Link to="/prekets"> <button onClick={() => window.scrollTo(0, 0)} className={css.viewdetailsbtn}>View details</button>  </Link>  
                 </div>
             </div>
             <div className={css.right}>

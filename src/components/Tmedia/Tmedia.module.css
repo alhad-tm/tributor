@@ -41,7 +41,7 @@ line-height: 28px; /* 116.667% */
     width: 50%;
 }
 .dleft>img{
-    width: 80%;
+    width: 70%;
 }
 .dright{
     display: flex;
@@ -76,6 +76,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 500;
 line-height: 28px; /* 155.556% */
+text-align: left;
 }
 .center{
     display: flex;
@@ -222,5 +223,11 @@ font-size: 18px;
     }
     .bx2{
         font-size: 14px;
+    }
+}
+@media  screen and (min-width: 769px) and (max-width: 999px){
+    .bx2{
+        line-height: 25px;
+        font-size: 17px;
     }
 }

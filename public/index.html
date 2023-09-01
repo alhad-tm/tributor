@@ -25,69 +25,7 @@
   <body>
    
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <img onclick="topFunction()" id="myBtn" title="Go to top" src="backtotop.svg" alt="">
    
-    <script>
-      // Get the button
-      let mybutton = document.getElementById("myBtn");
-      
-      // When the user scrolls down 20px from the top of the document, show the button
-      window.onscroll = function() {scrollFunction()};
-      
-      function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-          mybutton.style.display = "block";
-        } else {
-          mybutton.style.display = "none";
-        }
-      }
-      
-      // When the user clicks on the button, scroll to the top of the document
-      function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      }
-      </script>
-    <!-- here -->
-    <nav>
-    <div class="navbar">
-      <i class='bx bx-menu '></i>
-      <!-- <div class="logo"><img src="./Logo.svg" alt=""></div> -->
-      <div class="nav-links">
-        <div class="sidebar-logo">
-          <!-- <span class="logo-name">Invicious </span> -->
-          <img class="openimage" src="./TRIBUTORlogo.svg" alt="">
-          <i class='bx bx-x' ></i>
-        </div>
-        <ul class="links">
-          <li><a  href="/">Home</a></li>
-
-          <li>
-            <a  href="#">Products</a>
-            <i class='bx bxs-chevron-down js-arrow arrow htmlcss-arrow arrow  '></i>
-            <ul class="js-sub-menu sub-menu   htmlCss-sub-menu sub-menu">
-              <li><a href="/tcinema">Tributor for Cinema</a></li>
-              <li><a href="/tmedia">Tributor for Media</a></li>
-              <li><a href="/prekets">Prekets.com</a></li>
-            </ul>
-          </li>
-          <li><a  href="#about">About </a></li>
-          <li><a  href="/#contact">Contact</a></li> 
-        </ul>
-      </div>
-      <div class="input-box">
-        <a href="/"> <img class="logim" src="./TRIBUTORlogo.svg" alt="">  </a> 
-        
-       </div>
-      <!-- <div class="search-bo">
-        <i class='bx bx-search'></i>
-       
-      </div> -->
-
-    </div>
-  </nav>
-  <script src="./navbar.js"></script>
-    <!-- here -->
     <div id="root"></div>
   
   </body> 
