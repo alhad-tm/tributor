@@ -49,5 +49,6 @@ line-height: 20px; /* 142.857% */
     .div3{
         display: flex;
         flex-direction: column;
+        gap: 2.3rem;
     }
 }

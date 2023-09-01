@@ -21,7 +21,7 @@ line-height: normal;
 color: rgba(255, 34, 27, 1);
 background-image: linear-gradient(rgba(255, 34, 27, 1), rgba(187, 0, 6, 1));
 } */
-.ulist>li{
+.productset>a{
     list-style: none;
     color: var(--logo-color-1, #B3B3B3);
 font-family: Nunito;
@@ -29,6 +29,24 @@ font-size: 18px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+text-decoration: none;
+}
+.productset>img{
+    width: 18px;
+    /* height: 10px; */
+}
+.productset>img:hover{
+    cursor: pointer;
+}
+.ulist>a{
+    list-style: none;
+    color: var(--logo-color-1, #B3B3B3);
+font-family: Nunito;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration: none;
 }
 .ulist{
     display: flex;
@@ -38,8 +56,8 @@ line-height: normal;
 }
 .productsublist{
     position: absolute;
-    right: 34%;
-    top: 100%;
+    right: 20%;
+    top: 155%;
     background-color: black;
     padding: 2% 4%;
     border-radius: 10px;
@@ -60,7 +78,14 @@ line-height: normal;
 list-style: none;
 text-decoration: none;
 }
+.productset{
+    display: flex;
+    gap: 0.1rem;
+}
 @media screen and (max-width:768px){
+    .container{
+        height: 44px;
+    }
 
     .new{
         /* position: absolute;
@@ -86,7 +111,7 @@ text-decoration: none;
     
     
     min-height: 1000vh;
-    width: 94%;
+    width: 100%;
     background: #000000;
     line-height: 40px;
     padding: 20px;

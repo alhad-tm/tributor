@@ -5,7 +5,7 @@ import Dot from "../../assets/animation_list.gif"
 
 const Tmedia = () => {
   return (
-    <div className={css.maincontainer}>
+    <div className={css.maincontainer} id='tmedia'>
     <div className={css.container}>
         <div className={css.top}>
             <div className={css.head}>

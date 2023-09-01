@@ -192,12 +192,25 @@ font-size: 18px;
     }
     .details{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .dleft{
+        width: 100%;
+    }
+    .dleft>img{
+        width: 80%;
+    }
+    .dright{
+        flex-direction: column-reverse;
+        align-items: self-end;
+        width: 65%;
     }
     .lists{
         display: flex;
         flex-direction: column;
         gap: 0;
+        align-items: baseline;
     }
     .listleft{
         gap: 0.2rem;
@@ -223,6 +236,13 @@ font-size: 18px;
     }
     .bx2{
         font-size: 14px;
+    }
+    .registerbtn{
+        display: flex;
+padding: 6px 18px;
+align-items: flex-start;
+gap: 10px;
+font-size: 14px;
     }
 }
 @media  screen and (min-width: 769px) and (max-width: 999px){
