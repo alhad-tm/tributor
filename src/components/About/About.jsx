@@ -7,7 +7,7 @@ import A3 from "../../assets/a3.png"
 
 const About = () => {
   return (
-    <div className={css.container}>
+    <div className={css.container} id='about'>
 
         <div className={css.div1}>
             <span>Who we are!</span>

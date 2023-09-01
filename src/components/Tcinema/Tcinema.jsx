@@ -10,7 +10,7 @@ const Tcinema = () => {
            <div className={css.top}>
             <div className={css.head}>
                 <span>Tributor for Cinema</span>
-                <span>Simplify content management with tributor, with analytics and content rights at your fingertips!</span>
+                <span>Elevate your movie screening experience with our platform, having full control of your exhibition process!</span> 
             </div>
             <div className={css.details}>
                 <div className={css.dleft}>
@@ -21,37 +21,37 @@ const Tcinema = () => {
                         <div className={css.listleft}>
                             <div className={css.set}>
                                 <img src={Dot} alt="" />
-                                <span>DCP Encoding</span>
+                                <span>DCP Tracking</span>
                             </div>
                             <div className={css.set}>
                                 <img src={Dot} alt="" />
-                                <span>DCP Encoding</span>
+                                <span>DCP Key Management</span>
                             </div>
                             <div className={css.set}>
                                 <img src={Dot} alt="" />
-                                <span>DCP Encoding</span>
+                                <span>Digital Agreement(Legal)</span>
                             </div>
                             <div className={css.set}>
                                 <img src={Dot} alt="" />
-                                <span>DCP Encoding</span>
+                                <span>Analytics & Performance</span>
                             </div>
                         </div>
                         <div className={css.listright}>
                             <div className={css.set}>
                                 <img src={Dot} alt="" />
-                                <span>DCP Encoding</span>
+                                <span>Screen Ads Aggregator</span>
                             </div>
                             <div className={css.set}>
                                 <img src={Dot} alt="" />
-                                <span>DCP Encoding</span>
+                                <span>Screen + Show Configurator</span>
                             </div>
                             <div className={css.set}>
                                 <img src={Dot} alt="" />
-                                <span>DCP Encoding</span>
+                                <span>Integrated Workflow with `Distributors</span>
                             </div>
                             <div className={css.set}>
                                 <img src={Dot} alt="" />
-                                <span>DCP Encoding</span>
+                                <span>Payment Gateway</span>
                             </div>
                         </div>
 
