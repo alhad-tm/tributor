@@ -5,7 +5,7 @@ import P1 from "../../assets/p1.svg"
 
 const Tcinema = () => {
   return (
-    <div className={css.maincontainer}>
+    <div className={css.maincontainer} >
     <div className={css.container}>
            <div className={css.top}>
             <div className={css.head}>
@@ -27,7 +27,7 @@ const Tcinema = () => {
                                 <img src={Dot} alt="" />
                                 <span>DCP Key Management</span>
                             </div>
-                            
+
                             <div className={css.set}>
                                 <img src={Dot} alt="" />
                                 <span>Digital Agreement(Legal)</span>
