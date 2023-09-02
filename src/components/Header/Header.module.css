@@ -93,6 +93,10 @@ line-height: normal;
 list-style: none;
 text-decoration: none;
 }
+.productsublist>a:hover{
+    color: #fff
+    ;
+}
 .productset{
     display: flex;
     gap: 0.4rem;
