@@ -43,7 +43,7 @@ const Products = () => {
                 </div>
 
                 <div className={css.left2}>
-                    <span className={css.desc}>Elevate your movie screening experience with our platform, having full control of your exhibition process!</span>
+                    <span className={css.desc}>Simplify content management with tributor, with analytics and content rights at your fingertips!</span>
                 </div>
 
                 <div className={css.left3}>
@@ -67,7 +67,7 @@ const Products = () => {
                 </div>
 
                 <div className={css.left2}>
-                    <span className={css.desc}>Elevate your movie screening experience with our platform, having full control of your exhibition process!</span>
+                    <span className={css.desc}>Streamline your movie ticketing process with prekets, at the lowest price out on market!</span>
                 </div>
 
                 <div className={css.left3}>

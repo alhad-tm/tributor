@@ -5,7 +5,8 @@ const Contact = () => {
   return (
     <div className={css.container} id='contact'>
         <div className={css.div1}>
-            <span>Connect with us at Tributor and let's shape the future of the film industry together. Your ideas, feedback, and collaboration are the building blocks of innovation. Reach out to us today and be a part of the cinematic revolution!</span>
+            <span>Connect with us at Tributor and let's shape the future of the film industry together. Your ideas, feedback,
+                 and collaboration are the building blocks of innovation. Reach out to us today and be a part of the cinematic revolution!</span>
         </div>
 
 
