@@ -51,6 +51,18 @@ font-weight: 600;
 line-height: normal;
 text-decoration: none;
 }
+/* .ulist>a:hover{
+    color: yellow;
+}
+.pdt:hover{
+    color: yellow;
+} */
+.ulist>a:hover{
+    color: rgb(196, 13, 13)
+  }
+  .pdt:hover{
+    color: rgb(196, 13, 13)
+  }
 .ulist{
     display: flex;
     gap: 2rem;
@@ -83,8 +95,63 @@ text-decoration: none;
 }
 .productset{
     display: flex;
-    gap: 0.1rem;
+    gap: 0.4rem;
 }
+.ulist>a{
+    position: relative;
+    /* color: red; */
+  }
+ .ulist>a:after{
+    content: "";
+    position: absolute;
+    background: radial-gradient(44% 44% at 50% 50.67%, #FF221B 0%, #BB0006 100%);
+    color: radial-gradient(44% 44% at 50% 50.67%, #FF221B 0%, #BB0006 100%);
+   
+   
+    height: 1px;
+    width: 0;
+    /* left: 20; */
+    bottom: -10px;
+    border-radius: 6px;
+  }
+  .ulist>a:hover::after{
+    /* width: 80%;
+    left: 10%; */
+    left: 21px;
+    height: 3px;
+    width: 15px;
+    /* right: 50%; */
+    /* top: 40%; */
+
+  }
+.pdt{
+    position: relative;
+    /* color: red; */
+  }
+ .pdt:after{
+    content: "";
+    position: absolute;
+    background: radial-gradient(44% 44% at 50% 50.67%, #FF221B 0%, #BB0006 100%);
+    color: radial-gradient(44% 44% at 50% 50.67%, #FF221B 0%, #BB0006 100%);
+  
+   
+    height: 1px;
+    width: 0;
+    /* left: 20; */
+    bottom: -10px;
+    border-radius: 6px;
+  }
+  .pdt:hover::after{
+    /* width: 80%;
+    left: 10%; */
+    left: 24px;
+    height: 3px;
+    width: 15px;
+    /* right: 50%; */
+    /* top: 40%; */
+   
+  }
+ 
 @media screen and (max-width:768px){
     .container{
         height: 48px;

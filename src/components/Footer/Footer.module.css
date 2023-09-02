@@ -32,6 +32,9 @@ line-height: 20px; /* 142.857% */
 text-decoration: none;
 
 }
+.flist>a:hover{
+    color: rgb(196, 13, 13)
+}
 .aboutli{
     list-style: none;
 }

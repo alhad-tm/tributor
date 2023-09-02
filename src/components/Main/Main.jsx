@@ -2,7 +2,7 @@ import React from 'react'
 import css from "./Main.module.css"
 import Tb1 from "../../assets/tributor1.svg"
 import Darrow from "../../assets/downarrow.svg"
-import {Link as LinkScroll} from "react-scroll"
+
 import { HashLink } from 'react-router-hash-link'
 
 const Main = () => {

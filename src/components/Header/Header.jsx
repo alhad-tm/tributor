@@ -3,9 +3,9 @@ import css from "./Header.module.css"
 import Bars from "../../assets/bars2.svg"
 import Trib from "../../assets/TRIBUTORlogo.svg"
 import Close from "../../assets/close.png"
-import { Link } from 'react-router-dom'
+
 import { HashLink } from 'react-router-hash-link'
-import Arrowd from "../../assets/chevron-right.svg"
+import Arrowd from "../../assets/drop.svg"
 
 const Header = () => {
   const mobile = window.innerWidth <= 768 ? true : false;
@@ -42,7 +42,7 @@ const Header = () => {
           
        <HashLink smooth={true} to="/#home">  <li onClick={()=>setOpened(false)}>Home</li></HashLink>  
        <div className={css.productset}>  
-        <HashLink onClick={()=>setOpened(false)} smooth={true} to="/#products"> <li  >Product</li> </HashLink>
+        <HashLink  smooth={true} to="/#products"> <li className={css.pdt} onClick={()=>setOpened(false)} >Product</li> </HashLink>
         <img onClick={()=>setDown(!down)} src={Arrowd} alt="" />
        </div>
           

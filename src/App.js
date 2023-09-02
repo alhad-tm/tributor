@@ -40,7 +40,7 @@ function App() {
         </Routes>
         {/* <Contact/> */}
         <Footer/>
-        <img onClick={()=>window.scrollTo({top: 0,left: 0,behavior: "smooth",})} className= { state? "tobtn2":" tobtn"} src={Backto}></img>
+        <img onClick={()=>window.scrollTo({top: 0,left: 0,behavior: "smooth",})} className= { state? "tobtn2":" tobtn"} src={Backto} alt=''></img>
       </Router>
  
   
