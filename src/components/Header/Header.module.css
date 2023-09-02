@@ -87,10 +87,10 @@ text-decoration: none;
 }
 @media screen and (max-width:768px){
     .container{
-        height: 44px;
+        height: 48px;
     }
     .mlogo{
-        width: 100px;
+        width: 80px;
     }
 
     .new{
@@ -131,13 +131,13 @@ text-decoration: none;
     backdrop-filter: blur(5px);
     animation-name: move;
     animation-delay: 0s;
-    animation-duration: 700ms;
+    animation-duration: 600ms;
     animation-fill-mode: forwards;
     
     }
     @keyframes move {
-        from { right: 0px; }
-        to { right: 400px; }
+        from { left: 400px; }
+        to { left: 0px; }
       }
      
     .new{
@@ -169,6 +169,7 @@ text-decoration: none;
     }
     .productsublist{
         position: static;
+        align-items: flex-start;
     }
   
 

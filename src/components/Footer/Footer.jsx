@@ -1,6 +1,6 @@
 import React from 'react'
 import css from "./Footer.module.css"
-import Trib from "../../assets/TRIBUTOR.png"
+import Trib from "../../assets/TRIBUTORlogo.svg"
 import Fb from "../../assets/Facebook.svg"
 import Insta from "../../assets/instagram.svg"
 import Twitter from "../../assets/twitter.svg"

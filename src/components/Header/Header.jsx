@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import css from "./Header.module.css"
-import Bars from "../../assets/bars.svg"
+import Bars from "../../assets/bars2.svg"
 import Trib from "../../assets/TRIBUTORlogo.svg"
 import Close from "../../assets/close.png"
 import { Link } from 'react-router-dom'
@@ -29,7 +29,7 @@ const Header = () => {
 
        {opened === false && mobile === true ? (
           <div className={css.sw} onClick={() => setOpened(true)}>
-            <img style={{width:"17px",height:"17px"}} onClick={()=>setOpened(false)} className={css.bars} src={Bars} alt="" />
+            <img  onClick={()=>setOpened(false)} className={css.bars} src={Bars} alt="" />
           </div>
         ) : (
          <div className={css.new}>

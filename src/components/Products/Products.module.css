@@ -140,8 +140,12 @@ background:transparent;
         gap: 2.5rem;
     }
     .left{
-        width: 88%;
+        width: 100%;
         gap: 1rem;
+        align-items: center;
+    }
+    .left2{
+       text-align: center;
     }
     .desc{
         line-height: 24px;
@@ -153,6 +157,7 @@ background:transparent;
         display: flex;
         flex-direction: column;
         gap: 2.5rem;
+        align-items: baseline;
     }
     .p2right{
         width: 100%;

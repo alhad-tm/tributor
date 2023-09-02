@@ -72,6 +72,7 @@ line-height: normal;
         justify-content: flex-start;
         padding-top: 4rem;
         
+        
     }
     .div1>img{
         width: 150px;
@@ -88,5 +89,8 @@ line-height: normal;
     }
     .div4{
         bottom: 10px;
+    }
+    .div4>:nth-child(1){
+        font-size: 14px;
     }
 }

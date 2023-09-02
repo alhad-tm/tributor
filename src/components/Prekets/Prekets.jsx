@@ -24,13 +24,13 @@ const Prekets = () => {
         <div className={css.div5}>
             <img src={P3} alt="" />
         </div>
-        <div className={css.bottomcontact}>
+        {/* <div className={css.bottomcontact}>
            
            <span>Contact us to learn more about our pricing details for the product</span>
            <button className={css.contactbtn}>Contact</button>
       
-
-   </div>
+ 
+   </div> */}
 
 
       
