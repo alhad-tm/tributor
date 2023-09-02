@@ -142,6 +142,7 @@ background:transparent;
         display: flex;
         flex-direction: column;
         gap: 2.5rem;
+        height: auto;
     }
     .left{
         width: 100%;
@@ -162,6 +163,7 @@ background:transparent;
         flex-direction: column;
         gap: 2.5rem;
         align-items: baseline;
+        height: auto;
     }
     .p2right{
         width: 100%;

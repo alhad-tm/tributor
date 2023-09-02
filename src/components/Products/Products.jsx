@@ -62,7 +62,7 @@ const Products = () => {
         <div className={css.p1}>
             <div className={css.left}>
                 <div className={css.left1}>
-                    <span className={css.head}>Tributor for cinemas</span>
+                    <span className={css.head}>Prekets.com</span>
                    
                 </div>
 

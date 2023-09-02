@@ -94,8 +94,7 @@ list-style: none;
 text-decoration: none;
 }
 .productsublist>a:hover{
-    color: #fff
-    ;
+    color: #fff;
 }
 .productset{
     display: flex;
@@ -190,6 +189,7 @@ text-decoration: none;
     min-height: 1000vh;
     width: 100%;
     background: #000000;
+   
     line-height: 40px;
     padding: 20px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -207,8 +207,9 @@ text-decoration: none;
     
     }
     @keyframes move {
-        from { left: 400px; }
-        to { left: 0px; }
+        from { left: 600px; top: -33px; }
+        to { left: 0px; top:-33px }
+        
       }
      
     .new{
