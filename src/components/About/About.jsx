@@ -1,9 +1,9 @@
 import React from 'react'
 import css from "./About.module.css"
 
-import A1 from "../../assets/a1.png"
-import A2 from "../../assets/a2.png"
-import A3 from "../../assets/a3.png"
+import A1 from "../../assets/a11.svg"
+import A2 from "../../assets/a22.svg"
+import A3 from "../../assets/a33.svg"
 
 const About = () => {
   return (

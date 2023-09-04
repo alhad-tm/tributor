@@ -54,7 +54,7 @@ line-height: 28px; /* 155.556% */
 
 @media screen and (max-width:768px){
     .container{
-        padding-top: 12rem;
+        /* padding-top: 12rem; */
     }
     .div1>:nth-child(1){
         font-size: 16px;
