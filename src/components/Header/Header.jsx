@@ -17,7 +17,7 @@ const Header = () => {
   return (
     <div className={css.container}>
       <div className={css.left}>
-        <img className={css.mlogo} src={Trib} alt="" />
+      <a href="/">  <img className={css.mlogo} src={Trib} alt="" /> </a>  
        
       </div>
 

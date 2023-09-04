@@ -8,6 +8,11 @@ import { HashLink } from 'react-router-hash-link'
 const Main = () => {
   return (
     <div className={css.container}>
+      <div className={css.wrap1}>
+
+
+
+    
         <div className={css.div1}>
             <img src={Tb1} alt="" />
         </div>
@@ -18,10 +23,13 @@ const Main = () => {
         <div className={css.div3}>
             <span>Tributor stands as your all-inclusive destination for flawless film distribution and content management, coupled with a cutting-edge movie ticket booking app.</span>
         </div>
-
+        </div>
+        
+        <div className={css.wrap2}>
         <div className={css.div4}>
           <span>Our Products</span>
          <HashLink to="/#products" spy={true} smooth={true}> <img src={Darrow} alt="" /> </HashLink> 
+           </div> 
            </div>
       
     </div>
