@@ -71,7 +71,10 @@ const Products = () => {
                 </div>
 
                 <div className={css.left3}>
-                    <button className={css.registerbtn}>Register</button>
+                 <div className={css.hoverdiv}> 
+                    <button className={css.downloadbtn}>Download app</button>
+                    <div className={css.hovertext}><span>Will be launched soon!</span></div>
+                    </div>  
                     <Link to="/prekets"> <button onClick={() => window.scrollTo(0, 0)} className={css.viewdetailsbtn}>View details</button>  </Link>  
                 </div>
             </div>

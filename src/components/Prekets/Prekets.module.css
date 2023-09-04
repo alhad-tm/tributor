@@ -43,6 +43,41 @@ color: rgba(255, 255, 255, 0.20);
 text-align: center;
 font-family: Nunito;
 font-size: 18px;
+cursor: pointer;
+position: relative;
+}
+.div4{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;justify-content: center;
+}
+.hovertext{
+    position: absolute;
+    margin-top: 5rem;
+    visibility: hidden;
+  /* top: 4rem; */
+    /* height: 70px;
+    width: 130px; */
+  font-family: Nunito;
+    color: #000;
+    font-weight: 500;
+    z-index: 2;
+    display: inline-flex;
+padding: 6px 10px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 3px;
+background: rgba(255, 255, 255, 0.80);
+
+
+}
+.hovertext::before{
+    content: "";
+    position: absolute;
+}
+.div4:hover .hovertext{
+    visibility: visible;
 }
 .div5>img{
     width: 50%;
@@ -100,6 +135,10 @@ align-items: center;
 gap: 10px;
 flex-shrink: 0;
 font-size: 14px;
+}
+.hovertext{
+    font-size: 12px;
+    margin-top: 4rem;
 }
 .div5{
     margin-top: 1rem;

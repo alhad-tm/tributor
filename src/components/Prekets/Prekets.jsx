@@ -19,6 +19,7 @@ const Prekets = () => {
 
         <div className={css.div4}>
             <button className={css.downloadbtn}>Download app</button>
+            <div className={css.hovertext}><span>Will be launched soon!</span></div>
         </div>
 
         <div className={css.div5}>
