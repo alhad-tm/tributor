@@ -2,6 +2,7 @@ import React from 'react'
 import css from "./Tcinema.module.css"
 import Dot from "../../assets/animation_list.gif"
 import P1 from "../../assets/p1.svg"
+import { HashLink } from 'react-router-hash-link'
 
 const Tcinema = () => {
   return (
@@ -105,7 +106,7 @@ const Tcinema = () => {
     <div className={css.bottomcontact}>
            
            <span>Contact us to learn more about our pricing details for the product</span>
-           <button className={css.contactbtn}>Contact us</button>
+         <HashLink to='/#contact'> <button className={css.contactbtn}>Contact us</button> </HashLink>  
       
 
    </div>

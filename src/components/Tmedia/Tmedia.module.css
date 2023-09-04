@@ -169,6 +169,7 @@ border: 1px solid #FF5656;
 color: #FF5656;
 background: transparent;
 font-size: 18px;
+cursor: pointer;
 }
 .registerbtn{
     display: flex;

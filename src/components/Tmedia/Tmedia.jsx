@@ -2,6 +2,7 @@ import React from 'react'
 import css from "./Tmedia.module.css"
 import P2 from "../../assets/p2.svg"
 import Dot from "../../assets/animation_list.gif"
+import { HashLink } from 'react-router-hash-link'
 
 const Tmedia = () => {
   return (
@@ -95,7 +96,7 @@ const Tmedia = () => {
     <div className={css.bottomcontact}>
            
            <span>Contact us to learn more about our pricing details for the product</span>
-           <button className={css.contactbtn}>Contact</button>
+           <HashLink to='/#contact'> <button className={css.contactbtn}>Contact us</button> </HashLink> 
       
 
    </div>
