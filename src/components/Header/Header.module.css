@@ -9,7 +9,8 @@ justify-content: space-between;
 align-items: center;
 width: 100%;
 padding: 2% 6%;
-background-color: rgba(0, 0, 0, 1);
+/* background-color: rgba(0, 0, 0, 1); */
+background: #0C0C0C;
 z-index: 10;
 }
 .mlogo{
@@ -24,7 +25,7 @@ line-height: normal;
 color: rgba(255, 34, 27, 1);
 background-image: linear-gradient(rgba(255, 34, 27, 1), rgba(187, 0, 6, 1));
 } */
-.productset>a{
+.productset>li{
     list-style: none;
     color: var(--logo-color-1, #B3B3B3);
 font-family: Nunito;
@@ -33,6 +34,7 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 text-decoration: none;
+cursor: pointer;
 }
 .productset>img{
     width: 18px;

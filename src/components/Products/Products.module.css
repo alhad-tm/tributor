@@ -94,14 +94,17 @@ background:transparent;
     
 }
 .registerbtn:hover{
-    background:transparent;
-    color: #FF5656;
+ 
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), #FF5656;
+    /* color: #FF5656; */
     cursor: pointer;
 }
 .viewdetailsbtn:hover{
     cursor: pointer;
-    color:#FFF;
-    background: #FF5656;
+
+ 
+border: 1px solid #FF5656;
+background: rgba(255, 86, 86, 0.10);
 }
 .right{
     width: 50%;

@@ -41,9 +41,9 @@ const Header = () => {
            <ul  className={css.ulist}> 
           
        <HashLink smooth={true} to="/#home">  <li onClick={()=>setOpened(false)}>Home</li></HashLink>  
-       <div className={css.productset}>  
-        <HashLink  smooth={true} to="/#products"> <li className={css.pdt} onClick={()=>setOpened(false)} >Product</li> </HashLink>
-        <img onClick={()=>setDown(!down)} src={Arrowd} alt="" />
+       <div className={css.productset} onClick={()=>setDown(!down)}>  
+        <li className={css.pdt}  >Product</li> 
+        <img  src={Arrowd} alt="" />
        </div>
           
           {down &&  
