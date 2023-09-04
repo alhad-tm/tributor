@@ -47,7 +47,7 @@ const Header = () => {
        </div>
           
           {down &&  
-            <ul className={css.productsublist} >
+            <ul  onClick={()=>setDown(false)} className={css.productsublist} >
           <HashLink onClick={()=>setOpened(false)} to="/tcinema/#tcinema"><li onClick={()=>setDown(false)}>Tributor for Cinemas</li></HashLink>   
           <HashLink onClick={()=>setOpened(false)} to="/tmedia/#tmedia"><li onClick={()=>setDown(false)}>Tributor for Media</li></HashLink>   
           <HashLink onClick={()=>setOpened(false)} to="/prekets/#prekets"><li onClick={()=>setDown(false)}>Prekets</li></HashLink>   

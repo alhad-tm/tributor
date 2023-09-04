@@ -52,6 +52,10 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 text-decoration: none;
+
+
+
+
 }
 /* .ulist>a:hover{
     color: yellow;
@@ -60,10 +64,16 @@ text-decoration: none;
     color: yellow;
 } */
 .ulist>a:hover{
-    color: rgb(196, 13, 13)
+    background: radial-gradient(44% 44% at 50% 50.67%, #FF221B 0%, #BB0006 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
   }
   .pdt:hover{
-    color: rgb(196, 13, 13)
+    background: radial-gradient(44% 44% at 50% 50.67%, #FF221B 0%, #BB0006 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 .ulist{
     display: flex;

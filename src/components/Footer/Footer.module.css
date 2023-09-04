@@ -33,7 +33,10 @@ text-decoration: none;
 
 }
 .flist>a:hover{
-    color: rgb(196, 13, 13)
+    background: radial-gradient(44% 44% at 50% 50.67%, #FF221B 0%, #BB0006 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .aboutli{
     list-style: none;
