@@ -76,8 +76,14 @@ background: rgba(255, 255, 255, 0.80);
     content: "";
     position: absolute;
 }
-.div4:hover .hovertext{
+.hdiv:hover .hovertext{
     visibility: visible;
+}
+.hdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .div5>img{
     width: 50%;

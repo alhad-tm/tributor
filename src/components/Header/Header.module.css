@@ -75,6 +75,14 @@ background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+  .productset:hover >li 
+   
+  {
+    background: radial-gradient(44% 44% at 50% 50.67%, #FF221B 0%, #BB0006 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 .ulist{
     display: flex;
     gap: 2rem;
@@ -139,11 +147,11 @@ text-decoration: none;
     /* top: 40%; */
 
   }
-.pdt{
+.productset{
     position: relative;
     /* color: red; */
   }
- .pdt:after{
+ .productset:after{
     content: "";
     position: absolute;
     background: radial-gradient(44% 44% at 50% 50.67%, #FF221B 0%, #BB0006 100%);
@@ -156,16 +164,19 @@ text-decoration: none;
     bottom: -10px;
     border-radius: 6px;
   }
-  .pdt:hover::after{
+  .productset:hover::after{
     /* width: 80%;
     left: 10%; */
     left: 24px;
     height: 3px;
     width: 15px;
+    color: green;
+    
     /* right: 50%; */
     /* top: 40%; */
    
   }
+ 
  
 @media screen and (max-width:768px){
     .container{
