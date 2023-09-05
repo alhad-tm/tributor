@@ -19,7 +19,7 @@
     font-family: Nunito;
     font-size: 24px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 28px; /* 116.667% */
 }
 .div3{
@@ -32,7 +32,7 @@ font-family: Nunito;
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
-line-height: 24px; /* 120% */
+line-height: 32px; 
 }
 .downloadbtn{
     display: flex;
@@ -134,6 +134,7 @@ background: transparent;
     }
     .div3>:nth-child(1){
         font-size: 12px;
+        line-height: 20px;
     }
     .downloadbtn{
         display: inline-flex;

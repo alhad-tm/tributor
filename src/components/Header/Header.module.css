@@ -1,239 +1,176 @@
-.container{
-    position: sticky;
-    top: 0;
-    border-bottom: 1px solid #1D1D1D;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-height: 70px;
-display: flex;
-justify-content: center;
-align-items: center;
-width: 100%;
-padding: 2% 6%;
-/* background-color: rgba(0, 0, 0, 1); */
-background: #0C0C0C;
-z-index: 10;
+.container {
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid #1d1d1d;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 2% 6%;
+  /* background-color: rgba(0, 0, 0, 1); */
+  background: #0c0c0c;
+  z-index: 10;
 }
-.wrap{
-  
-display: flex;
-justify-content: space-between;
-align-items: center;
-width: 100%;
-max-width: 1440px;
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1440px;
+}
+.active {
+  background-color: tomato;
+  color: chartreuse;
+}
+.left {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+}
+.right {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.mlogo {
+  width: 115px;
+}
 
+.productset > li {
+  list-style: none;
+  color: var(--logo-color-1, #b3b3b3);
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+  cursor: pointer;
+}
+.productset > a {
+  list-style: none;
+  color: var(--logo-color-1, #b3b3b3);
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+  cursor: pointer;
+}
+.productset > img {
+  width: 18px;
+  /* height: 10px; */
+}
+.productset > img:hover {
+  cursor: pointer;
+}
+.ulist > a {
+  list-style: none;
+  color: var(--logo-color-1, #b3b3b3);
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+}
 
+.ulist > a:hover {
+  background: radial-gradient(44% 44% at 50% 50.67%, #ff221b 0%, #bb0006 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.pdt:hover {
+  background: radial-gradient(44% 44% at 50% 50.67%, #ff221b 0%, #bb0006 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.productset:hover > li {
+  background: radial-gradient(44% 44% at 50% 50.67%, #ff221b 0%, #bb0006 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.ulist {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+  position: relative;
+}
+.productsublist {
+  position: absolute;
+  right: 20%;
+  top: 155%;
+  background-color: black;
+  padding: 2% 4%;
+  border-radius: 10px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.productsublistdiv > a {
+  color: #ccc;
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  list-style: none;
+  text-decoration: none;
+}
+.productsublist > a:hover {
+  color: #fff;
+}
+.productset {
+  display: flex;
+  gap: 0.4rem;
+}
+.ulist > a {
+  position: relative;
+}
+.productset {
+  position: relative;
 
 }
-.left{
-    width: 50%;
+.textsvg{
     display: flex;
-    justify-content: flex-start;
-} 
-.right{
-    width: 50%;
-    display: flex;
-    justify-content: flex-end;
-}
-.mlogo{
-    width: 115px;
-}
-/* .left>:nth-child(2){
-    font-family: Jua;
-font-size: 25.568px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-color: rgba(255, 34, 27, 1);
-background-image: linear-gradient(rgba(255, 34, 27, 1), rgba(187, 0, 6, 1));
-} */
-.productset>li{
-    list-style: none;
-    color: var(--logo-color-1, #B3B3B3);
-font-family: Nunito;
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-text-decoration: none;
-cursor: pointer;
-}
-.productset>img{
-    width: 18px;
-    /* height: 10px; */
-}
-.productset>img:hover{
-    cursor: pointer;
-}
-.ulist>a{
-    list-style: none;
-    color: var(--logo-color-1, #B3B3B3);
-font-family: Nunito;
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-text-decoration: none;
-
-
-
-
-}
-/* .ulist>a:hover{
-    color: yellow;
-}
-.pdt:hover{
-    color: yellow;
-} */
-.ulist>a:hover{
-    background: radial-gradient(44% 44% at 50% 50.67%, #FF221B 0%, #BB0006 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-  }
-  .pdt:hover{
-    background: radial-gradient(44% 44% at 50% 50.67%, #FF221B 0%, #BB0006 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  .productset:hover >li 
-   
-  {
-    background: radial-gradient(44% 44% at 50% 50.67%, #FF221B 0%, #BB0006 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-.ulist{
-    display: flex;
-    gap: 2rem;
-    width: 100%;
-    position: relative;
-}
-.productsublist{
-    position: absolute;
-    right: 20%;
-    top: 155%;
-    background-color: black;
-    padding: 2% 4%;
-    border-radius: 10px;
-    width: 200px;
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
+    gap: 0.2rem;
 }
-.productsublistdiv>a{
-    color: #CCC;
-font-family: Nunito;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-list-style: none;
-text-decoration: none;
+.textsvg:hover svg path{
+    stroke: rgb(233, 16, 16);
+    stroke-width: 0.4px;
+    fill: rgb(224, 11, 11);
 }
-.productsublist>a:hover{
-    color: #fff;
-}
-.productset{
-    display: flex;
-    gap: 0.4rem;
-}
-.ulist>a{
-    position: relative;
-    /* color: red; */
-  }
- .ulist>a:after{
-    content: "";
-    position: absolute;
-    background: radial-gradient(44% 44% at 50% 50.67%, #FF221B 0%, #BB0006 100%);
-    color: radial-gradient(44% 44% at 50% 50.67%, #FF221B 0%, #BB0006 100%);
-   
-   
-    height: 1px;
-    width: 0;
-    /* left: 20; */
-    bottom: -10px;
-    border-radius: 6px;
-  }
-  .ulist>a:hover::after{
-    /* width: 80%;
-    left: 10%; */
-    left: 21px;
-    height: 3px;
-    width: 15px;
-    /* right: 50%; */
-    /* top: 40%; */
 
-  }
-.productset{
-    position: relative;
-    /* color: red; */
-  }
- .productset:after{
-    content: "";
-    position: absolute;
-    background: radial-gradient(44% 44% at 50% 50.67%, #FF221B 0%, #BB0006 100%);
-    color: radial-gradient(44% 44% at 50% 50.67%, #FF221B 0%, #BB0006 100%);
-  
-   
-    height: 1px;
-    width: 0;
-    /* left: 20; */
-    bottom: -10px;
-    border-radius: 6px;
-  }
-  .productset:hover::after{
-    /* width: 80%;
-    left: 10%; */
-    left: 24px;
-    height: 3px;
-    width: 15px;
-    color: green;
-    
-    /* right: 50%; */
-    /* top: 40%; */
-   
-  }
- 
- 
-@media screen and (max-width:768px){
-    .container{
-        height: 48px;
-    }
-    .mlogo{
-        width: 80px;
-    }
 
-    .new{
-        /* position: absolute;
+@media screen and (max-width: 768px) {
+  .container {
+    height: 48px;
+  }
+  .mlogo {
+    width: 80px;
+  }
+
+  .new {
     
-    background: #262525;
-    background-color: black;
-        height: 100px;
-    display: flex;
-    flex-direction: column;
-    right: 22px;
-    top: 0;
-    gap: 16px;
-    font-size: 12px;
-    padding: 4% 4%;
-    border-radius: 10px;
-    color: var(--logo-color-1, #B3B3B3);
-    width: 68px;
-    text-align: left; */
     position: fixed;
     top: -26px;
     left: 0%;
     display: block;
-    
-    
+
     min-height: 1000vh;
     width: 100%;
     background: #000000;
-   
+
     line-height: 40px;
     padding: 20px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -242,51 +179,52 @@ text-decoration: none;
     align-items: left;
     text-align: left;
     gap: 2rem;
-    
+
     backdrop-filter: blur(5px);
     animation-name: move;
     animation-delay: 0s;
     animation-duration: 600ms;
     animation-fill-mode: forwards;
-    
+  }
+  @keyframes move {
+    from {
+      left: 600px;
+      top: -33px;
     }
-    @keyframes move {
-        from { left: 600px; top: -33px; }
-        to { left: 0px; top:-33px }
-        
-      }
-     
-    .new{
-      
-        display: flex;
-        flex-direction: column;
-        margin-top: 2rem;
+    to {
+      left: 0px;
+      top: -33px;
     }
-    .n1{
-        display: flex;
-        justify-content: space-between;
-    }
-    .close{
-        width: 16px;
-        height: 16px;
-    }
-    .ulist{
-        display: flex;
-        flex-direction: column;
-        color: aqua;
-        gap: 1rem;
-    }
-    .sw{
-        color: aqua;
-    }
-    .main{
-        width: 200px;
-        background-color: rgb(20, 20, 20);
-    }
-    .productsublist{
-        position: static;
-        align-items: flex-start;
-    }
-  
+  }
 
+  .new {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  .n1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .close {
+    width: 16px;
+    height: 16px;
+  }
+  .ulist {
+    display: flex;
+    flex-direction: column;
+    color: aqua;
+    gap: 1rem;
+  }
+  .sw {
+    color: aqua;
+  }
+  .main {
+    width: 200px;
+    background-color: rgb(20, 20, 20);
+  }
+  .productsublist {
+    position: static;
+    align-items: flex-start;
+  }
 }

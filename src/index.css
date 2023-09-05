@@ -19,3 +19,47 @@ body {
 code {
 
 }
+.activeb{
+  background-color: green;
+  color: blueviolet;
+  text-decoration: underline;
+  text-decoration-color: #007bff; /* Color of the underline */
+  text-decoration-thickness: 82px; /* Thickness of the underline */
+  text-decoration-style: dotted
+}
+
+
+.not{
+  background-color: aqua;
+}
+.active svg path{
+  stroke: rgb(233, 16, 16);
+  stroke-width: 0.4px;
+  fill: rgb(224, 11, 11);
+}
+.active{
+  display: flex;
+  position: relative; /* Make it a positioning context */
+   /* Default text color */
+  text-decoration: none; /* Remove the default underline */
+  background: radial-gradient(44% 44% at 50% 50.67%, #ff221b 0%, #bb0006 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* Add padding or margin as needed */
+ /* Adjust spacing between links */
+}
+
+/* Style for the underline when the link is active */
+.active.active::after {
+  content: ''; /* Create a pseudo-element */
+  position: absolute; /* Position it absolutely */
+  bottom: -10px; /* Place it at the bottom */
+  left: 21px; /* Align it with the link */
+  width: 15px; /* Make it span the width of the link */
+  height: 3px;
+  border-radius: 6px; /* Define the thickness of the underline */
+
+  background: radial-gradient(44% 44% at 50% 50.67%, #ff221b 0%, #bb0006 100%);
+  color: radial-gradient(44% 44% at 50% 50.67%, #ff221b 0%, #bb0006 100%);
+}
