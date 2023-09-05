@@ -48,13 +48,13 @@ const Header = () => {
           
           {down &&  
             <ul  onClick={()=>setDown(false)} className={css.productsublist} >
-          <HashLink onClick={()=>setOpened(false)} to="/tcinema/#tcinema"><li onClick={()=>setDown(false)}>Tributor for Cinemas</li></HashLink>   
-          <HashLink onClick={()=>setOpened(false)} to="/tmedia/#tmedia"><li onClick={()=>setDown(false)}>Tributor for Media</li></HashLink>   
-          <HashLink onClick={()=>setOpened(false)} to="/prekets/#prekets"><li onClick={()=>setDown(false)}>Prekets</li></HashLink>   
+        <div className={css.productsublistdiv} onClick={() => window.scrollTo(0, 0)}>   <HashLink onClick={()=>setOpened(false)} to="/tcinema/"><li onClick={()=>setDown(false)}>Tributor for Cinemas</li></HashLink>   </div>
+        <div className={css.productsublistdiv} onClick={() => window.scrollTo(0, 0)}>   <HashLink onClick={()=>setOpened(false)} to="/tmedia/"><li onClick={()=>setDown(false)}>Tributor for Media</li></HashLink>    </div>
+        <div className={css.productsublistdiv} onClick={() => window.scrollTo(0, 0)}>  <HashLink onClick={()=>setOpened(false)} to="/prekets/"><li onClick={()=>setDown(false)}>Prekets</li></HashLink>   </div>
        
           </ul> 
           }
-          <HashLink smooth={true} to="/#about">  <li onClick={()=>setOpened(false)}>About</li></HashLink>  
+          <HashLink  smooth={true} to="/#about">  <li onClick={()=>setOpened(false)}>About</li></HashLink>  
           <HashLink smooth={true} to="/#contact">  <li onClick={()=>setOpened(false)}>Contact</li></HashLink>  
        
         </ul> </div>) } 

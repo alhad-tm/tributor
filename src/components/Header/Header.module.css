@@ -103,7 +103,7 @@ background-clip: text;
     justify-content: center;
     gap: 0.5rem;
 }
-.productsublist>a{
+.productsublistdiv>a{
     color: #CCC;
 font-family: Nunito;
 font-size: 16px;
