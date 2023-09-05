@@ -16,6 +16,7 @@ const Header = () => {
 
   return (
     <div className={css.container}>
+      <div className={css.wrap}>
       <div className={css.left}>
       <a href="/">  <img className={css.mlogo} src={Trib} alt="" /> </a>  
        
@@ -60,6 +61,7 @@ const Header = () => {
         </ul> </div>) } 
         <div>
  
+       </div>
        </div>
        </div>
 

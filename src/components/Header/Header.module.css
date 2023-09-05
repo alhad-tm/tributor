@@ -5,13 +5,34 @@
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 height: 70px;
 display: flex;
-justify-content: space-between;
+justify-content: center;
 align-items: center;
 width: 100%;
 padding: 2% 6%;
 /* background-color: rgba(0, 0, 0, 1); */
 background: #0C0C0C;
 z-index: 10;
+}
+.wrap{
+  
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+max-width: 1440px;
+
+
+
+}
+.left{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+} 
+.right{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
 }
 .mlogo{
     width: 115px;
