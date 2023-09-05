@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     padding: 10% 6%;
+    padding: 4% 6%;
     background: #0C0C0C;
     gap: 4rem;
 }
@@ -35,6 +36,7 @@ line-height: normal;
     justify-content: space-between;
     align-items: center;
     height: 100vh;
+    max-width: 1440px;
 }
 .left{
     width: 50%;

@@ -9,6 +9,7 @@
 }
 .div1{
     width: 88%;
+    max-width: 1440px;
 }
 .div1>:nth-child(1){
     color: #999;
@@ -24,6 +25,7 @@ line-height: 36px; /* 180% */
     align-items: center;
     justify-content: space-between;
     width: 80%;
+    max-width: 1440px;
 }
 .div2left,.div2right{
     display: flex;
