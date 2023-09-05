@@ -19,21 +19,14 @@ body {
 code {
 
 }
-.activeb{
-  background-color: green;
-  color: blueviolet;
-  text-decoration: underline;
-  text-decoration-color: #007bff; /* Color of the underline */
-  text-decoration-thickness: 82px; /* Thickness of the underline */
-  text-decoration-style: dotted
-}
+
 
 
 .not{
   background-color: aqua;
 }
 .active svg path{
-  stroke: rgb(233, 16, 16);
+  stroke: rgb(185, 22, 22);
   stroke-width: 0.4px;
   fill: rgb(224, 11, 11);
 }

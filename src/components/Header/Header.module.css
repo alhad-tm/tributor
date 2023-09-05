@@ -20,10 +20,7 @@
   width: 100%;
   max-width: 1440px;
 }
-.active {
-  background-color: tomato;
-  color: chartreuse;
-}
+
 .left {
   width: 50%;
   display: flex;
@@ -105,14 +102,14 @@
 .productsublist {
   position: absolute;
   right: 20%;
-  top: 155%;
+  top: 200%;
   background-color: black;
   padding: 2% 4%;
   border-radius: 10px;
   width: 200px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   gap: 0.5rem;
 }
@@ -145,9 +142,15 @@
     align-items: center;
     gap: 0.2rem;
 }
+.textsvg:hover{
+    background: radial-gradient(44% 44% at 50% 50.67%, #ff221b 0%, #bb0006 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .textsvg:hover svg path{
     stroke: rgb(233, 16, 16);
-    stroke-width: 0.4px;
+    /* stroke-width: 0.4px; */
     fill: rgb(224, 11, 11);
 }
 
