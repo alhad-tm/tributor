@@ -42,7 +42,7 @@ line-height: 28px; /* 116.667% */
     justify-content: space-between;
 }
 .dleft{
-    width: 30%;
+    width: 40%;
 }
 .dleft>img{
     width: 100%;
@@ -308,5 +308,34 @@ font-size: 14px;
     .bx2{
         line-height: 30px;
         font-size: 17px;
+    }
+}
+@media  screen and (min-width: 1018px) and (max-width: 1170px){
+    .lists{
+        gap: 2rem;
+    }
+    .set>span{
+        font-size: 16px;
+    }
+    
+}
+@media  screen and (min-width: 887px) and (max-width: 1018px){
+    .dleft{
+        width: 35%;
+    }
+    .lists{
+        gap: 1rem;
+    }
+    .set>span{
+        font-size: 15px;
+    }
+    
+}
+@media  screen and (min-width: 769px) and (max-width: 887px){
+    .lists{
+        gap: 0.6rem;
+    }
+    .set>span{
+        font-size: 12px;
     }
 }
