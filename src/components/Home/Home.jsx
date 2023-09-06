@@ -8,7 +8,7 @@ import About from '../About/About'
 
 const Home = () => {
   return (
-    <div id="home">
+    <div >
        
         <Main/>
         <About/>

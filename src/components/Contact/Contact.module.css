@@ -59,6 +59,9 @@ width: 88%;
 
 }
 @media screen and (max-width:768px){
+    .container{
+        padding: 16% 6%;
+    }
     .div1{
         width: 100%;
     }

@@ -8,12 +8,19 @@ import Tmedia from './components/Tmedia/Tmedia';
 import Header from "./components/Header/Header"
 // import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
-import { useState } from 'react';
+import {  useState } from 'react';
 import Backto from "../src/assets/backto.svg"
+
+import { useHistory } from 'react-router-hash-link';
+
+
+
+ 
 
 
 
 function App() {
+  
   const [state,setState]=useState(false)
 
   const backTo=()=>{
@@ -27,6 +34,8 @@ function App() {
   }
 
   window.addEventListener("scroll",backTo)
+
+  
   return (
     <div className="App">
       <Router>

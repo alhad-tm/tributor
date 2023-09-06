@@ -9,10 +9,10 @@ const Tmedia = () => {
     <div className={css.maincontainer} id='tmedia'>
     <div className={css.container}>
         <div className={css.top}>
-            <div className={css.head}>
+            {/* <div className={css.head}>
                 <span>Tributor for Media</span>
                 <span>Simplify content management with tributor, with analytics and content rights at your fingertips!</span>
-            </div>
+            </div> */}
             <div className={css.details}>
                 <div className={css.dleft}>
                     <img src={P2} alt="" />

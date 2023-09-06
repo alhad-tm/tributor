@@ -154,14 +154,21 @@ width: 120%;
 background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), #FF5656;
 
     cursor: pointer;
+    font-weight: 400;
+transform: scale(1.01);
 }
 .viewdetailsbtn:hover{
     cursor: pointer;
-
+font-weight: 500;
+transform: scale(1.01);
  
 border: 1px solid #FF5656;
 background: rgba(255, 86, 86, 0.10);
 }
+/* .viewdetailsbtn:hover .txt{
+    transform: scale(1.01);
+   
+} */
 .right{
     width: 50%;
    
