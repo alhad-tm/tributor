@@ -10,7 +10,7 @@
 .top{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    /* gap: 2rem; */
     width: 100%;
     max-width: 1440px;
 }
@@ -221,6 +221,12 @@ font-size: 18px;
 @media screen and (max-width:768px){
     .container{
         padding: 16% 6%;
+    }
+    .top{
+        gap: 1rem;
+    }
+    .head{
+        gap: 1rem;
     }
     .head>:nth-child(1){
         font-size: 16px;

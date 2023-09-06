@@ -207,6 +207,12 @@ font-size: 18px;
     .container{
         padding: 16% 6%;
     }
+    .top{
+        gap: 1rem;
+    }
+    .head{
+        gap: 1rem;
+    }
     .head>:nth-child(1){
         font-size: 16px;
     }
