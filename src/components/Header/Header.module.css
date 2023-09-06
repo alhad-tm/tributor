@@ -30,6 +30,9 @@
   display: flex;
   justify-content: flex-end;
 }
+.left>a{
+  display: contents;
+}
 .mlogo {
   width: 115px;
 }

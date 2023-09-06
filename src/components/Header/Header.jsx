@@ -5,7 +5,7 @@ import Trib from "../../assets/TRIBUTORlogo.svg"
 import Close from "../../assets/close.png"
 
 import { HashLink } from 'react-router-hash-link'
-import Arrowd from "../../assets/drop.svg"
+// import Arrowd from "../../assets/drop.svg"
 
 
 
@@ -59,7 +59,8 @@ const Header = () => {
        <HashLink  onClick={() => setActiveNav('/#home')} className={activeNav === '/#home' ? 'active' : ''}  smooth={true} to="/#home">  <li onClick={()=>setOpened(false)}>Home</li></HashLink>  
        <div className={css.productset} onClick={()=>setDown(!down)}>  
      <HashLink onClick={() => setActiveNav('/#products')} className={activeNav === '/#products' ? 'active' : ''} smooth={true} >
-      <div className={css.textsvg} ref={documentRef}>
+      <div className={css.textsvg} ref={documentRef}
+      >
        <li className={css.pdt}  >Product</li> 
      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="&#240;&#159;&#166;&#134; icon &#34;arrow ios downward&#34;">

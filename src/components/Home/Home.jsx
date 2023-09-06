@@ -3,7 +3,7 @@ import Main from '../Main/Main'
 import Products from '../Products/Products'
 import Contact from '../Contact/Contact'
 import About from '../About/About'
-import { Routes,Route } from 'react-router-dom'
+
 
 
 const Home = () => {
@@ -11,12 +11,7 @@ const Home = () => {
     <div id="home">
        
         <Main/>
-        {/* <Routes>
-
-       
-      <Route path="/component-a" element ={<About />} /> 
-      </Routes> */}
-      <About/>
+        <About/>
         <Products/>
         <Contact/>
       
