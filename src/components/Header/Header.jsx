@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import css from "./Header.module.css"
 import Bars from "../../assets/bars2.svg"
 import Trib from "../../assets/TRIBUTORlogo.svg"
@@ -17,22 +17,32 @@ const Header = () => {
   const [opened, setOpened] = useState(false);
   const [down,setDown]=useState(false)
   
-  
+  const documentRef = useRef();
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (documentRef.current && !documentRef.current.contains(event.target)) {
+        setDown(false);
+      }
+    };
+
+    document.addEventListener('click', handleClickOutside);
+
+    return () => {
+      document.removeEventListener('click', handleClickOutside);
+    };
+  }, []);
 
   return (
-    <div className={css.container}>
+    <div className={css.container} >
       <div className={css.wrap}>
+
       <div className={css.left}>
-      <a href="/">  <img className={css.mlogo} src={Trib} alt="" /> </a>  
-       
+      <a href="/">  <img className={css.mlogo} src={Trib} alt="" /> </a>   
       </div>
 
 
       <div className={css.right}>
-
-     
-          
-
        {opened === false && mobile === true ? (
           <div className={css.sw} onClick={() => setOpened(true)}>
             <img  onClick={()=>setOpened(false)} className={css.bars} src={Bars} alt="" />
@@ -49,7 +59,7 @@ const Header = () => {
        <HashLink  onClick={() => setActiveNav('/#home')} className={activeNav === '/#home' ? 'active' : ''}  smooth={true} to="/#home">  <li onClick={()=>setOpened(false)}>Home</li></HashLink>  
        <div className={css.productset} onClick={()=>setDown(!down)}>  
      <HashLink onClick={() => setActiveNav('/#products')} className={activeNav === '/#products' ? 'active' : ''} smooth={true} >
-      <div className={css.textsvg}>
+      <div className={css.textsvg} ref={documentRef}>
        <li className={css.pdt}  >Product</li> 
      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="&#240;&#159;&#166;&#134; icon &#34;arrow ios downward&#34;">

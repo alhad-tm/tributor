@@ -9,7 +9,6 @@
   align-items: center;
   width: 100%;
   padding: 2% 6%;
-  /* background-color: rgba(0, 0, 0, 1); */
   background: #0c0c0c;
   z-index: 10;
 }
@@ -34,18 +33,6 @@
 .mlogo {
   width: 115px;
 }
-
-.productset > li {
-  list-style: none;
-  color: var(--logo-color-1, #b3b3b3);
-  font-family: Nunito;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  text-decoration: none;
-  cursor: pointer;
-}
 .productset > a {
   list-style: none;
   color: var(--logo-color-1, #b3b3b3);
@@ -59,7 +46,6 @@
 }
 .productset > img {
   width: 18px;
-  /* height: 10px; */
 }
 .productset > img:hover {
   cursor: pointer;
