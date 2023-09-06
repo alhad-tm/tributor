@@ -41,15 +41,15 @@ line-height: 28px; /* 116.667% */
     justify-content: space-between;
 }
 .dleft{
-    width: 50%;
+    width: 30%;
 }
 .dleft>img{
-    width: 70%;
+    width: 100%;
 }
 .dright{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
     gap: 2rem;
 }
 .lists{
@@ -286,5 +286,26 @@ font-size: 14px;
     .bx2{
         line-height: 25px;
         font-size: 17px;
+    }
+}
+
+@media  screen and (min-width: 769px) and (max-width: 900px){
+    .set>span{
+        font-size: 15px;
+    }
+    .dleft{
+        width: 40%;
+    }
+    .dright{
+        width: fit-content;
+    }
+    .lists{
+        gap: 1rem; 
+    }
+    
+}
+@media  screen and (min-width: 900px) and (max-width: 1100px){
+    .dleft{
+        width: 35%;
     }
 }
