@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom'
 const Products = () => {
   return (
     <div className={css.container} id='products'>
+        <div className={css.wrap1}>
         <div className={css.div1}>
             <span>PRODUCTS</span>
             <span>Tributor by Invicious</span>
@@ -32,6 +33,7 @@ const Products = () => {
             <div className={css.right}>
                 <img src={P1} alt="" />
             </div>
+        </div>
         </div>
 
         {/* product2 */}
@@ -59,7 +61,7 @@ const Products = () => {
         {/* product2 */}
 
 
-        <div className={css.p1}>
+        <div  className={`${css.p1} ${css.p3}`}>
             <div className={css.left}>
                 <div className={css.left1}>
                     <span className={css.head}>Prekets.com</span>

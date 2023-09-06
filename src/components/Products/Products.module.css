@@ -31,11 +31,14 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+.wrap1{
+    height: 100vh;
+}
 .p1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100vh;
+    /* height: 100vh; */
     max-width: 1440px;
 }
 .left{
@@ -183,6 +186,9 @@ background: rgba(255, 86, 86, 0.10);
     height: 100vh;
 
 }
+.p3{
+    height: 100vh;
+}
 
 @media screen and (max-width:768px){
     .container{
@@ -194,12 +200,18 @@ background: rgba(255, 86, 86, 0.10);
     .div1>:nth-child(2){
  font-size: 16px;
     }
+    .wrap1{
+        display: flex;
+        flex-direction: column;
+        gap: 3.2rem;
+        height: auto;
+    }
     .p1{
         display: flex;
         flex-direction: column;
         gap: 3.2rem;
         justify-content: center;
-        /* height: auto; */
+        height: auto;
     }
     .left{
         width: 100%;
@@ -221,7 +233,7 @@ background: rgba(255, 86, 86, 0.10);
         gap: 3.2rem;
         align-items: baseline;
         justify-content: center;
-        /* height: auto; */
+        height: auto;
     }
     .p2right{
         width: 100%;
